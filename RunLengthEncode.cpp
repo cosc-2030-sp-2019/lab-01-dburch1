@@ -56,6 +56,9 @@ int main()
 			pixf_cmpr << " " << count << "\n";
 		}
 	}
+
+	pixf_full.close();
+	pixf_cmpr.close();
 	return 0;
 }
 
